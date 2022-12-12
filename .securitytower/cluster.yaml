@@ -1,4 +1,4 @@
-apiVersion: securitytower.io/v1alpha1
+/usr/bin/bash: line 1: q: command not found
 kind: Cluster
 metadata:
    name: ArgoCD_repo
