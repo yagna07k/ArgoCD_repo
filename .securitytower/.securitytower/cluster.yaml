@@ -1,0 +1,17 @@
+apiVersion: securitytower.io/v1alpha1
+kind: Cluster
+metadata:
+   name: ArgoCD_repo
+spec:
+   policies:
+      path: /policies
+EOF~
+
+cat << EOF > .securitytower/cluster.yaml
+apiVersion: securitytower.io/v1alpha1
+kind: Cluster
+metadata:
+   name: ArgoCD_repo
+spec:
+   policies:
+      path: /policies
